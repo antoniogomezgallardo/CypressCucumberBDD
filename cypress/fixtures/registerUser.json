@@ -1,0 +1,19 @@
+{
+  "name": "Hodor",
+  "lastName": "Hodor",
+  "company": "Hodor S.L",
+  "address": "Hodor street",
+  "address2": "Hodor Hodor",
+  "state": "Hodor",
+  "city": "Hodorland",
+  "zipcode": "90001",
+  "mobileNumber": "202-555-0151",
+  "country": "United States",
+  "email": "hodor_hodor@hodor.com",
+  "password": "hodorhodorhodor",
+  "dayOfBirth": "18",
+  "monthOfBirth": "August",
+  "yearOfBirth": "2018",
+  "registerConfirmationMessage": "Account Created!",
+  "deleteConfirmationMessage": "Account Deleted!"
+}

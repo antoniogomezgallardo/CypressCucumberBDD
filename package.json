@@ -3,12 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:regression": "npx cypress run --env tags='@regression' --headed",
+    "test:registerAndDelete": "npx cypress run --env tags='@registerAndDelete' --headed",
+    "test:register": "npx cypress run --env tags='@register' --headed"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^13.9.0"
+    "cypress": "^13.9.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/stepDefinitions/*.{js,ts}"
+    ]
   }
+  
 }
