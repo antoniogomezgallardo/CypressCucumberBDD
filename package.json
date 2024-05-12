@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:regression": "npx cypress run --env tags='@regression' --headed",
-    "test:registerAndDelete": "npx cypress run --env tags='@registerAndDelete' --headed",
-    "test:register": "npx cypress run --env tags='@register' --headed"
+    "test:regression": "npx cypress run --env tags='@regression' ",
+    "test:registerAndDelete": "npx cypress run --env tags='@registerAndDelete' ",
+    "test:register": "npx cypress run --env tags='@register' "
   },
   "author": "",
   "license": "ISC",
